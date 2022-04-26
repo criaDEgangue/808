@@ -1,0 +1,153 @@
+footer p {
+    padding: 0;
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+    margin: 1em 0;
+    font-size: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 1em 0;
+}
+
+footer ul li a {
+    padding: 1em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    transition: 100ms;
+}
+
+footer ul li a:hover {
+    color: rgb(46, 168, 249);
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background: rgba(255, 153, 0, 0.568);
+    border-top: 5px solid rgba(121, 74, 4, 0.864);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 2em;
+    font-size: 1.2rem;
+}
+
+/* Estilo brabo do >>Sticky Footer<< */
+body {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}
+
+
+
+/*
+ESSA ERA O FOOTER ANTIGO, MAS DECIDI POR NÃO USAR, ACHEI QUE FICOU MUITO EXTENSO E DESNECESSÁRIO
+MAS VOU REUTILIZAR A PARTE DAS LOGOS DA REDE SOCIAL COMO FACEBOOK E INSTAGRAM - ESSA PARTE EU ACHO QUE FICA TOP
+DE RESTO DESCARTEI TUDO E DEIXEI MAIS SIMPLES E MINIMALISTA.
+ACHO QUE FICA MAIS BONITO, ALÉM DE FICAR MENOS COMPLICADO E RESUMIDO.
+
+
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 15px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: left;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social>a {
+    font-size: 22px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1.8px rgba(255, 255, 255, 0.555);
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover,
+.eface:hover,
+.dinsta:hover {
+    opacity: 0.8;
+    color: black;
+}
+
+.eface {
+    color: #5c8fdb;
+    margin-left: -1.4px;
+    line-height: 0px;
+}
+
+.dinsta {
+    color: rgb(97, 5, 51);
+    margin-left: 0px;
+}
+
+.footer-dark .daut {
+    text-align: center;
+    padding-top: 15px;
+    color: gainsboro;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+                <div class="col-sm-6 col-md-3 item" data-aos="fade-left" data-aos-duration="1010">
+                    <h3 data-aos="fade-left" data-aos-duration="1200">Fale Conosco</h3>
+                    <ul>
+                        <li><a href="#">Agendamentos</a></li>
+                        <li><a href="#">Telefone: (17) 00000-XXXX</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Quem somos</h3>
+                    <p>Buscando revolucionar o mercado digital, criamos então uma Startup focada em ajudar pequenas
+                        empresas que desejam investir em seu comércio com uma taxa que não seja abusiva e
+                        que tenha proporção futura para faturar o fator gasto de maneira totalmente líquida com
+                        juros e um capital estimado de até 5x (vezes) o valor investido em lucro.</p>
+                </div>
+                <div class="col item social">
+                    <a href="https://www.facebook.com/profile.php?id=100044224730079" target="_blank"><i
+                            class="fa fa-facebook eface"></i></a>
+                    <a href="https://www.instagram.com/hen_dz7/" target="_blank"><i
+                            class="fa fa-instagram dinsta"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+*/
