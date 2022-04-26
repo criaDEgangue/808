@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 }
 
 .backze {
-    background: url("/hnz/imagem/background-site.gif") no-repeat center;
+    background: url("./imagem/background-site.gif") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
