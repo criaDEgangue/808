@@ -47,11 +47,11 @@
 
 /*ITEMS DA NAVBAR - PRODUTOS ETC*/
 
-.sal {
+.navhoverp {
     color: rgb(255, 255, 255);
 }
 
-.sal:hover {
+.navhoverp:hover {
     color: rgb(46, 168, 249);
     opacity: 1;
 }
