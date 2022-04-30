@@ -8,7 +8,7 @@
 
 .backze {
     /*background: url(".././imagem/reserva.gif") no-repeat center;*/
-    background-color: rgb(255, 255, 255);
+    background-color: gainsboro;
     background-size: cover;
     background-attachment: fixed;
 }

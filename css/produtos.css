@@ -54,7 +54,7 @@ a:hover {
 .section-products #product-1 .part-1::before {
     background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center;
     background-size: cover;
-		transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
