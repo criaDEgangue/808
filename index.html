@@ -22,9 +22,10 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/busca.css">
     <link rel="stylesheet" href="./css/slide.css">
-    <link rel="stylesheet" href="./css/produtos.scss">
+    <link rel="stylesheet" href="./css/produtos.css">
 
-    <style>
+    <!--Bandeiras e Nomes das Linguagens-->
+    <style type="text/css">
         a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
         a.gflag img {border:0;}
         a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
@@ -43,16 +44,16 @@
 
     <script type="text/javascript">
         function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'pt',autoDisplay: false}, 'google_translate_element2');}
-        </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
-        
-        <script type="text/javascript">
-        /* <![CDATA[ */
+    </script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2">
+        </script>
+    <script type="text/javascript">
+    /* <![CDATA[ */
         eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',43,43,'||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'),0,{}))
-        /* ]]> */
-     </script>
+    /* ]]> */
+    </script>
     
 </head>
-
 
 <body class="backze">
 
@@ -67,7 +68,7 @@
                 <span>MENU</span>
             </button>
 
-            <!--CONTEÚDO ESQUERDA NAVBAR - LADO DA LOGO-->
+            <!--CONTEÚDO NAVBAR - LADO DA LOGO-->
             <div id="navbarCollapses" class="collapse navbar-collapse justify-content-start">
                 <div class="navbar-nav">
 
@@ -80,20 +81,18 @@
                             <a href="./breve.html" class="dropdown-item">Celulares</a>
                         </div>
                     </div>
-
                     <a href="./breve.html" class="nav-item nav-link navhoverp">Contato</a>
                     
-                   <!--Linguagens-->
-                   <br /> <select onchange="doGTranslate(this);">
-                    <option value="">Linguagem </option>
-                    <option value="pt|en">English</option>
-                    <option value="pt|fr">Frances</option>
-                    <option value="pt|pt">Portuguese</option>
-                    <option value="pt|es">Spanhol</option>
-                 </select>
-                 <div id="google_translate_element2">
+                    <!--BOTÃO - ALTERAR LINGUAGENS-->
+                    <select onchange="doGTranslate(this);">
+                        <option value="">Linguagem </option>
+                        <option value="pt|en">English</option>
+                        <option value="pt|fr">Franch</option>
+                        <option value="pt|pt">Portuguese</option>
+                        <option value="pt|es">Spanish</option>
+                    </select>
+                        <div id="google_translate_element2"></div>
                 </div>
-            </div>
 
                 <!--BUSCA-->
                  <form class="form-inline mr-auto ml-auto">
@@ -101,7 +100,6 @@
                     <button class="preto bttn sucesso my-2 my-sm-0 material-icons" type="submit">search</button>
                 </form>
 
-                <!--CADASTROS-->
                 <div class="navbar-nav ml-auto action-buttons">
                     <!--LOGIN-->
                     <div class="nav-item dropdown">
@@ -109,8 +107,6 @@
                         <div class="dropdown-menu action-form">
                             <form action="./breve.html" method="post">
                                 <p class="desc">Entrar com</p>
-                                <p class="#"></p>
-                               
                                 <div class="formante-e social-btn clearfix d-flex justify-content-center">
                                     <a href="./breve.html" class="btn btn-secondary facebook-btn"><i
                                             class="fa fa-facebook"></i>
@@ -173,19 +169,19 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./imagem/destaque1.png" class="d-block w-100" alt="DESTAQUE">
+                <img src="./imagem/destaque1.png" class="d-block w-100" alt="DESTAQUE DO DIA">
                 <div class="carousel-caption d-none d-md-block">
                     <h5></h5>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./imagem/destaque2.png" class="d-block w-100" alt="DESTAQUE">
+                <img src="./imagem/destaque2.png" class="d-block w-100" alt="DESTAQUE DO DIA">
                 <div class="carousel-caption d-none d-md-block">
                     <h5></h5>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./imagem/destaque3.png" class="d-block w-100" alt="DESTAQUE">
+                <img src="./imagem/destaque3.png" class="d-block w-100" alt="DESTAQUE DO DIA">
                 <div class="carousel-caption d-none d-md-block">
                     <h5></h5>
                 </div>
@@ -201,26 +197,164 @@
         </a>
     </div>
 
-    <div class="product">
-        <span class="product__price">$120</span>
-        <img class="product__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/26438/shoe.png">
-        <h1 class="product__title">Nike Roshe Run Print</h1>
-        <hr />
-        <p>The Nike Roshe One Print Men's Shoe offers breathability, lightweight cushioning and bold style with an injected unit midsole and colorful mesh upper. </p>
-        <a href="#" class="product__btn btn">Buy Now</a>
-    </div>
-
-    <!--TODO O CONTEÚDO PRINCIPAL-->
+    <!--CONTEÚDO PRINCIPAL-->
     <main>
-        <!--PRODUTOS-->
-
-        <!--CENTRO-->
-        <h3>PRODUTOS</h1>
-            <h2>PRODUTOS</h1>
-                <h1>PRODUTOS</h1>
-                <h3>PRODUTOS</h1>
-                    <h2>PRODUTOS</h1>
-                        <h1>PRODUTOS</h1>
+        <section class="section-products">
+            <div class="container">
+                    <div class="row justify-content-center text-center">
+                            <div class="col-md-8 col-lg-6">
+                                    <div class="header">
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="product-1" class="single-product">
+                                            <div class="part-1">
+                                                    <ul>
+                                                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                    </ul>
+                                            </div>
+                                            <div class="part-2">
+                                                    <h3 class="product-title">Here Product Title</h3>
+                                                    <h4 class="product-old-price">$79.99</h4>
+                                                    <h4 class="product-price">$49.99</h4>
+                                            </div>
+                                    </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="product-2" class="single-product">
+                                            <div class="part-1">
+                                                    <span class="discount">15% off</span>
+                                                    <ul>
+                                                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                    </ul>
+                                            </div>
+                                            <div class="part-2">
+                                                    <h3 class="product-title">Here Product Title</h3>
+                                                    <h4 class="product-price">$49.99</h4>
+                                            </div>
+                                    </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="product-3" class="single-product">
+                                            <div class="part-1">
+                                                    <ul>
+                                                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                    </ul>
+                                            </div>
+                                            <div class="part-2">
+                                                    <h3 class="product-title">Here Product Title</h3>
+                                                    <h4 class="product-old-price">$79.99</h4>
+                                                    <h4 class="product-price">$49.99</h4>
+                                            </div>
+                                    </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="product-4" class="single-product">
+                                            <div class="part-1">
+                                                    <span class="new">new</span>
+                                                    <ul>
+                                                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                    </ul>
+                                            </div>
+                                            <div class="part-2">
+                                                    <h3 class="product-title">Here Product Title</h3>
+                                                    <h4 class="product-price">$49.99</h4>
+                                            </div>
+                                    </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="product-1" class="single-product">
+                                            <div class="part-1">
+                                                    <ul>
+                                                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                    </ul>
+                                            </div>
+                                            <div class="part-2">
+                                                    <h3 class="product-title">Here Product Title</h3>
+                                                    <h4 class="product-old-price">$79.99</h4>
+                                                    <h4 class="product-price">$49.99</h4>
+                                            </div>
+                                    </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="product-2" class="single-product">
+                                            <div class="part-1">
+                                                    <span class="discount">15% off</span>
+                                                    <ul>
+                                                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                    </ul>
+                                            </div>
+                                            <div class="part-2">
+                                                    <h3 class="product-title">Here Product Title</h3>
+                                                    <h4 class="product-price">$49.99</h4>
+                                            </div>
+                                    </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="product-3" class="single-product">
+                                            <div class="part-1">
+                                                    <ul>
+                                                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                    </ul>
+                                            </div>
+                                            <div class="part-2">
+                                                    <h3 class="product-title">Here Product Title</h3>
+                                                    <h4 class="product-old-price">$79.99</h4>
+                                                    <h4 class="product-price">$49.99</h4>
+                                            </div>
+                                    </div>
+                            </div>
+                            <!-- Single Product -->
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div id="product-4" class="single-product">
+                                            <div class="part-1">
+                                                    <span class="new">new</span>
+                                                    <ul>
+                                                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                    </ul>
+                                            </div>
+                                            <div class="part-2">
+                                                    <h3 class="product-title">Here Product Title</h3>
+                                                    <h4 class="product-price">$49.99</h4>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+    </section>
     </main>
 
     <!--RODAPÉ FIXO DO SITE COM ANIMAÇÃO - FOOTER-->
@@ -239,25 +373,10 @@
 
     <!--SCRIPTS DE ANIMAÇÃO E INTERAÇÕES - JS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        <script>
+            AOS.init();
+        </script>
     <script src="./java/slide.js"></script>
  </body>
-
-
- <!--Bandeiras e nomes da linguagen-->
-    <style type="text/css">
-  
-     a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
-        a.gflag img {border:0;}
-        a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
-        #goog-gt-tt {display:none !important;}
-        .goog-te-banner-frame {display:none !important;}
-        .goog-te-menu-value:hover {text-decoration:none !important;}
-        body {top:0 !important;}
-        #google_translate_element2 {display:none!important;}
- 
-    </style>
 
 </html>
