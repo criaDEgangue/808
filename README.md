@@ -1,2 +1,2 @@
 # 808
-mt foda 808
+é o trem mais brabo da ETEC - E VC SABE.
