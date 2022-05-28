@@ -69,7 +69,7 @@
                 <span>MENU</span>
             </button>
 
-            <!--CONTEÚDO NAVBAR - LADO DA LOGO-->
+            <!--CONTEÚDO NAVBAR - ESQUERDA-->
             <div id="navbarCollapses" class="collapse navbar-collapse justify-content-start">
                 <div class="navbar-nav">
 
@@ -190,16 +190,18 @@
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">VOLTAR</span>
+            <span class="sr-only">RETROCEDER</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">PRÓXIMO</span>
+            <span class="sr-only">PROSSEGUIR</span>
         </a>
     </div>
 
     <!--CONTEÚDO PRINCIPAL-->
     <main>
+
+    <div id="carouselExampleCaptions" class="carousel slide margemslide" data-ride="carousel"></div>
         <section class="section-products">
             <div class="container">
                     <div class="row justify-content-center text-center">
@@ -263,7 +265,7 @@
                             <div class="col-md-6 col-lg-4 col-xl-3">
                                     <div id="product-4" class="single-product">
                                             <div class="part-1">
-                                                    <span class="new">new</span>
+                                                    <span class="new">novo</span>
                                                     <ul>
                                                             <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                             <li><a href="#"><i class="fa fa-expand"></i></a></li>
@@ -277,7 +279,18 @@
                             </div>
                     </div>
             </div>
-    </section>
+        </section>
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">RETROCEDER</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">PROSSEGUIR</span>
+        </a>
+    </div>
+
     </main>
 
     <!--RODAPÉ FIXO DO SITE COM ANIMAÇÃO - FOOTER-->
@@ -300,6 +313,7 @@
             AOS.init();
         </script>
     <script src="./java/slide.js"></script>
+    
  </body>
 
 </html>
